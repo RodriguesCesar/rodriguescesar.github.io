@@ -234,4 +234,21 @@
         max-width: 100%;
         line-height: 26px;
     }
+    #btn-projects
+    {
+        margin: 20px auto;
+    }
+    #skills-box
+    {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 35px;
+        text-align: left;
+
+    }
+    #skills-box i
+    {
+        font-size: 60px;
+
+    }
 }
