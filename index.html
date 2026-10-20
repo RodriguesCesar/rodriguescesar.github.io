@@ -1,114 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cesar Rodrigues</title>
-    <!-- Google fontes -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
-    <!-- dev icon fontes -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
-    <!-- css do projeto-->
-    <link rel="stylesheet" href="css/style.css">
-   
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de César Rodrigues de Sousa, Tech Lead e Engenheiro de Software Sênior especialista em .NET, arquitetura distribuída e cloud." />
+  <title>César Rodrigues de Sousa | Tech Lead & Engenheiro de Software</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
- <main id="container">
-    <aside id="bio-container">
-        <h2>Cesar Rodrigues</h2>
+  <main class="layout">
+    <aside class="sidebar card">
+      <img class="avatar" src="img/CesarRodrigues.jpg" alt="Foto de César Rodrigues de Sousa" />
+      <h1 class="name">César Rodrigues de Sousa</h1>
+      <p class="role">Tech Lead & Engenheiro de Software Sênior</p>
 
-        <img id="bio-img" src="img/CesarRodrigues.jpg" alt="Cesar Rodrigues" />
-        
-        <p class="title">Olá, meu nome é Cesar Rodrigues e sou <span class="highlight">Desenvolvedor ASP.NET | React | AngularJS</span>. </p>
-    
-        <p id="welcome-text">Seja bem-vindo!</p>
+      <ul class="contact-list">
+        <li><strong>Local:</strong> Maricá - RJ</li>
+        <li><strong>Email:</strong> <a href="mailto:sousa.rodrigues.cesar@gmail.com">sousa.rodrigues.cesar@gmail.com</a></li>
+        <li><strong>Telefone:</strong> (21) 97222-5727</li>
+      </ul>
 
-        <ul id="social-container">
-            <li><a href="https://www.facebook.com/CesarRodriguesSousa/" target="_blank"><ion-icon name="logo-facebook"></ion-icon> </a></li>
-            <li><a href="https://www.linkedin.com/in/cesar-rodrigues-de-sousa-b69849162/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon> </a></li>
-            <li><a href="https://www.instagram.com/cesarrodriguessousa/" target="_blank"><ion-icon name="logo-instagram"></ion-icon> </a></li>       
-        </ul>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/cesar-rodrigues-de-sousa-b69849162/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="https://github.com/RodriguesCesar" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+      </div>
 
-        <div id="email-container">
-         <ion-icon name="mail-outline"></ion-icon>
-         <a href="mailto:sousa.rodrigues.cesar@gmail.com">sousa.rodrigues.cesar@gmail.com</a>
-        </div>
-
+      <a class="btn-primary" href="https://github.com/RodriguesCesar" target="_blank" rel="noopener noreferrer">
+        Ver projetos no GitHub
+      </a>
     </aside>
-    <section id="about-container">
 
-        <h1 id="name">Cesar Rodrigues</h1>
+    <section class="content">
+      <article class="card">
+        <h2>Resumo profissional</h2>
+        <p>
+          Especialista em Engenharia de Software com mais de 12 anos de experiência no ecossistema .NET
+          (de versões legadas ao .NET 10), com foco em soluções distribuídas de alta performance,
+          arquitetura moderna e liderança técnica.
+        </p>
+        <p>
+          Atuação em Clean Architecture, Hexagonal, Onion, CQRS e Event-Driven, além de cloud (Azure/AWS),
+          microsserviços, mensageria assíncrona, Kubernetes, Docker e integrações com IA (OpenAI, Claude, MCP e n8n).
+        </p>
+      </article>
 
-        <p id="title"><span class="highlight">Resumo das minhas qualificações</span></p>
-
-        <p class="description">Desenvolvimento de soluções utilizando o NET Framework (3.5, 4.0,  4.5, 4.8) e o Visual Studio ( 2012, 2013,2015, 2019),
-             em conjunto com as seguintes tecnologias: ASP.NET (Web Forms, MVC, Web API, MVC core e Web API Core), git, github, Identity Server 4, Windows Forms, Web Services, WCF, ADO.NET, LINQ, Entity Framework,
-              Enterprise Library, NHibernate, Report Viewer, Reporting Services, Team Foundation Server (TFS),
-               Dev Express, Telerik, JavaScript, jQuery, AJAX, AngularJS,  Silverlight 5 e outros</p>
-
-        <p class="description">Construção e manutenção de aplicações multicamadas empregando padrões de projetos (Design Patterns),
-             conceitos de Orientação a Objetos e boas práticas da Arquitetura de Software (SOA, REST, Domain-Driven Design, Injeção de Dependência, BDD)</p>
-
-        <p class="description">Desenvolvimento voltado a bancos de dados com as linguagens PL/SQL (Oracle) e T-SQL (SQL Server)</p>
-
-        <a href="https://github.com/RodriguesCesar" id="btn-projects" target="_blank"><ion-icon name="share-social-outline"></ion-icon><span class="btn-span">Ver projetos</span></a>
-
-        <h2  id="skills-section-title">Skills</h2>
-
-        <p class="description">Tecnologias que domino:</p>
-
-        <div id="skills-container">
-
-            <div id="skills-box">
-             <p class="skills-title"> Front-end </p>
-             <i class="devicon-html5-plain colored"></i>
-             <i class="devicon-css3-plain colored"></i>
-             <i class="devicon-javascript-plain colored"></i>
-            </div>
-
-            <div id="skills-box">
-                <p class="skills-title"> Back-end </p>
-                <i class="devicon-csharp-plain colored"></i>
-                <i class="devicon-dotnetcore-plain colored"></i>
-                <i class="devicon-dot-net-plain colored"></i>
-            </div>
-
-            <div id="skills-box">
-                <p class="skills-title"> Database </p>
-                <i class="devicon-oracle-plain colored"></i>
-                <i class="devicon-microsoftsqlserver-plain-wordmark colored"></i>
-                <i class="devicon-mysql-plain colored"></i>
-            </div>
-
-            <div id="skills-box">
-                <p class="skills-title"> Front-end Frameworks</p>
-                <i class="devicon-react-plain colored"></i>
-                <i class="devicon-angularjs-plain colored"></i>
-                <i class="devicon-jquery-plain colored"></i>                
-            </div>
-
-            <div id="skills-box">
-                <p class="skills-title"> IDE</p>
-                <i class="devicon-visualstudio-plain colored"></i>
-                <i class="devicon-vscode-plain colored"></i>
-            </div>
-
-            <div id="skills-box">
-                <p class="skills-title"> Tools </p>
-                <i class="devicon-docker-plain colored"></i>
-                <i class="devicon-github-plain colored"></i>
-            </div>
-
-
+      <article class="card">
+        <h2>Stack principal</h2>
+        <div class="tech-grid">
+          <span>.NET 6-10</span>
+          <span>ASP.NET Core</span>
+          <span>C#</span>
+          <span>TypeScript</span>
+          <span>Node.js</span>
+          <span>React</span>
+          <span>Next.js</span>
+          <span>Angular</span>
+          <span>Azure</span>
+          <span>AWS</span>
+          <span>Docker</span>
+          <span>Kubernetes</span>
+          <span>RabbitMQ</span>
+          <span>Kafka</span>
+          <span>MongoDB</span>
+          <span>SQL Server</span>
+          <span>Oracle</span>
+          <span>Redis</span>
         </div>
+      </article>
 
+      <article class="card">
+        <h2>Experiência profissional</h2>
+        <div class="timeline">
+          <section>
+            <h3>Softtek — Analista Desenvolvedor Sênior</h3>
+            <p class="period">07/2021 – 01/2026</p>
+            <ul>
+              <li>Liderança técnica em projetos críticos, definindo padrões arquiteturais e qualidade de código.</li>
+              <li>Arquitetura e sustentação de microsserviços com .NET Core, TypeScript e Next.js.</li>
+              <li>Aplicação de padrões de resiliência: Outbox, Retry, DLQ e Idempotência.</li>
+              <li>CI/CD com GitHub Actions, GitLab, Jenkins e Azure DevOps; containers com Docker e Kubernetes (AKS/EKS).</li>
+              <li>Observabilidade com OpenTelemetry, Grafana e Kibana.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Nexo CS Informática LTDA — Analista Desenvolvedor Sênior</h3>
+            <p class="period">11/2014 – 07/2021</p>
+            <ul>
+              <li>Modernização de sistemas legados para serviços e APIs REST de alta disponibilidade.</li>
+              <li>Integração assíncrona com RabbitMQ para desacoplamento de serviços críticos.</li>
+              <li>Otimização de bancos relacionais de alto volume com Oracle (PL/SQL) e SQL Server (T-SQL).</li>
+              <li>Condução técnica com clientes para requisitos complexos e soluções personalizadas.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Bruele Software — Analista Desenvolvedor Jr / Pleno</h3>
+            <p class="period">03/2012 – 11/2014</p>
+            <ul>
+              <li>Desenvolvimento e sustentação de sistemas web e legados com ASP.NET, Entity Framework, C# e SQL Server.</li>
+              <li>Análise de causa raiz, correções e melhorias de performance em produção.</li>
+            </ul>
+          </section>
+        </div>
+      </article>
+
+      <article class="card split">
+        <section>
+          <h2>Formação</h2>
+          <p><strong>Bacharelado em Ciência da Computação</strong><br />Universidade Plínio Leite (2014)</p>
+        </section>
+        <section>
+          <h2>Certificação</h2>
+          <p><strong>Microsoft Certified:</strong> Exam 483: Programming in C# (2020)</p>
+          <p><strong>Inglês:</strong> Intermediário</p>
+        </section>
+      </article>
+
+      <article class="card">
+        <h2>Ferramentas e ecossistema</h2>
+        <div class="icons">
+          <i class="devicon-csharp-plain colored" title="C#"></i>
+          <i class="devicon-dotnetcore-plain colored" title=".NET"></i>
+          <i class="devicon-typescript-plain colored" title="TypeScript"></i>
+          <i class="devicon-react-original colored" title="React"></i>
+          <i class="devicon-angularjs-plain colored" title="Angular"></i>
+          <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+          <i class="devicon-docker-plain colored" title="Docker"></i>
+          <i class="devicon-kubernetes-plain colored" title="Kubernetes"></i>
+          <i class="devicon-amazonwebservices-original colored" title="AWS"></i>
+          <i class="devicon-azure-plain colored" title="Azure"></i>
+          <i class="devicon-rabbitmq-original colored" title="RabbitMQ"></i>
+          <i class="devicon-mongodb-plain colored" title="MongoDB"></i>
+          <i class="devicon-microsoftsqlserver-plain colored" title="SQL Server"></i>
+          <i class="devicon-oracle-original colored" title="Oracle"></i>
+          <i class="devicon-redis-plain colored" title="Redis"></i>
+          <i class="devicon-github-original colored" title="GitHub"></i>
+        </div>
+      </article>
     </section>
- </main>
+  </main>
 
- <!-- Icon Icons  -->
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
